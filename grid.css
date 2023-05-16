@@ -1,0 +1,47 @@
+
+
+main
+
+.contenedor{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.contenedor .red{
+    display:grid;
+    background-color: red;
+   grid-template-columns: repeat 6, 1fr;
+   grid-column-gap:10rem;
+   grid-column-gap:1rem;
+
+
+}
+.contenedor .blue{
+    display:grid;
+    background-color: blue;
+    
+}
+.contenedor .yellow{
+    display:grid;
+    background-color: yellow;
+    
+}
+.contenedor .orange{
+    display:grid;
+    background-color:orange;
+    
+}
+.contenedor .green{
+    display:grid;
+    background-color: green;
+    
+}
+.contenedor .pink{
+    display:grid;
+    background-color: pink;
+    
+}
+/*
+grid-column-start: ;
+grid-row-start: ;
+*/
